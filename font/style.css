@@ -1,0 +1,100 @@
+@font-face{
+	src:url(marzfontt.ttf);
+	font-family:marzfontt;
+
+
+}
+@font-face{
+	src:url(marziconn.ttf);
+	font-family:marziconn;
+}
+body {
+	font: 25px marzfontt; 
+	margin: 0px;
+	text-align: center;
+	
+	}
+	h2{
+		color:yellow;
+		font-size: 30px;
+	}
+	
+	header {
+	
+	padding: 10px 20px;
+	background: #202020;
+	text-align: center;
+	
+	}
+	
+	header h1 {
+	
+	font-size: 35px;
+	color: rgb(252, 14, 145);
+	
+	}
+	
+	.container {
+	width: 100%;
+	background: #f2f2f2;  
+	
+	}
+	
+	nav, section {
+	
+	float: left; 
+	padding: 10px;
+	min-height: 450px;
+	box-sizing: border-box;
+	
+	}
+	
+	section {
+	
+	width: 55%;
+	background-color:  #606264;
+	
+	}
+	
+	
+	nav {
+	
+	width: 45%;              
+	background:  #4d4e4e;
+	
+	}    
+	
+	nav p {
+	list-style: none; 
+	font-family: marziconn;
+	line-height: 24px;
+	padding: 0px; 
+	}
+	
+	nav ul li a {
+	color: rgb(253, 252, 252);
+	
+	}
+	
+	.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	
+	}
+	p{
+		color:rgb(6, 241, 230);
+	}
+	
+	footer {
+	background: #414344;            
+	text-align: center;
+	padding: 5px;
+	
+	}
+	footer p{
+		color: gold;
+	}
+	
